@@ -27,14 +27,12 @@
 			border-radius: 5px;
 			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 			margin-bottom: 20px;
-			overflow: hidden;
 			padding: 20px;
 		}
 
 		.post-image {
-			float: left;
-			margin-right: 20px;
-			margin-bottom: 20px;
+			padding-right: 20px;
+			vertical-align: top;
 		}
 
 		.post-image img {
@@ -78,56 +76,64 @@
 			max-width: 600px;
 			margin: 0 auto;
 		}
+
+
 	</style>
 </head>
 <body>
 	<div class="container">
 
 	
-	<!-- Cabeçalho do email -->
-	<h1>Novas postagens em nosso blog</h1>
-
-	<!-- Lista de postagens -->
-	<div class="post">
-		<div class="post-image">
-			<img src="https://via.placeholder.com/100x100" alt="Imagem da postagem">
-		</div>
-		<div class="post-title">Título da primeira postagem</div>
-		<div class="post-content">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur massa eget elit bibendum, et posuere nunc eleifend.
-		</div>
-		<a href="#" class="post-read-more">Leia mais</a>
-	</div>
-	<div class="post">
-		<div class="post-image">
-			<img src="https://via.placeholder.com/100x100" alt="Imagem da postagem">
-		</div>
-		<div class="post-title">Título da primeira postagem</div>
-		<div class="post-content">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur massa eget elit bibendum, et posuere nunc eleifend.
-		</div>
-		<a href="#" class="post-read-more">Leia mais</a>
-	</div>
-	<div class="post">
-		<div class="post-image">
-			<img src="https://via.placeholder.com/100x100" alt="Imagem da postagem">
-		</div>
-		<div class="post-title">Título da primeira postagem</div>
-		<div class="post-content">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur massa eget elit bibendum, et posuere nunc eleifend.
-		</div>
-		<a href="#" class="post-read-more">Leia mais</a>
-	</div>
-	<div class="post">
-		<div class="post-image">
-			<img src="https://via.placeholder.com/100x100" alt="Imagem da postagem">
-		</div>
-		<div class="post-title">Título da primeira postagem</div>
-		<div class="post-content">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur massa eget elit bibendum, et posuere nunc eleifend.
-		</div>
-		<a href="#" class="post-read-more">Leia mais</a>
-	</div>
-</div>
-	</body>
+	<!-- Tabela para lista de postagens -->
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr>
+			<td align="center">
+				<!-- Cabeçalho do email -->
+				<h1>Novas postagens em nosso blog</h1>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<!-- Primeira postagem -->
+					<tr>
+						<td width="100" class="post-image">
+							<img src="https://via.placeholder.com/100x100" alt="Imagem da postagem">
+						</td>
+						<td class="post">
+							<div class="post-title">Título da primeira postagem</div>
+							<div class="post-content">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur massa eget elit bibendum, et posuere nunc eleifend.
+							</div>
+							<a href="#" class="post-read-more">Leia mais</a>
+						</td>
+					</tr>
+					<!-- Segunda postagem -->
+					<tr>
+						<td width="100" class="post-image">
+							<img src="https://via.placeholder.com/100x100" alt="Imagem da postagem">
+						</td>
+						<td class="post">
+							<div class="post-title">Título da primeira postagem</div>
+							<div class="post-content">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur massa eget elit bibendum, et posuere nunc eleifend.
+							</div>
+							<a href="#" class="post-read-more">Leia mais</a>
+						</td>
+					</tr>
+					<!-- Terceira postagem -->
+					<tr>
+						<td width="100" class="post-image">
+							<img src="https://via.placeholder.com/100x100" alt="Imagem da postagem">
+						</td>
+						<td class="post">
+							<div class="post-title">Título da primeira postagem</div>
+							<div class="post-content">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur massa eget elit bibendum, et posuere nunc eleifend.
+							</div>
+							<a href="#" class="post-read-more">Leia mais</a>
+						</td>
+					</tr>
+				</div>
+</body>
 </html>
